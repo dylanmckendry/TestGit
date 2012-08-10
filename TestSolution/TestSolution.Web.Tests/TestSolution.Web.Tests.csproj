@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{60802967-7CDA-469E-8963-6C9FF7DAFFB7}</ProjectGuid>
+    <ProjectGuid>{ECEBA20F-EA4C-45E0-97A1-6D30077767F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TestSolution.Web.Tests</RootNamespace>
@@ -102,6 +102,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestSolution.Web\TestSolution.Web.csproj">
+      <Project>{1D234157-9C15-4EB9-AC77-C15E01711573}</Project>
+      <Name>TestSolution.Web</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
